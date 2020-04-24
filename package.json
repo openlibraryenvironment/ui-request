@@ -28,6 +28,9 @@
       {
         "permissionName": "module.request.enabled",
         "displayName": "UI: request module is enabled",
+        "subPermissions": [
+          "tags.collection.get"
+        ],
         "visible": true
       },
       {
