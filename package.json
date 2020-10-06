@@ -34,14 +34,6 @@
         "visible": true
       },
       {
-        "permissionName": "settings.request.enabled",
-        "displayName": "Settings (request): display list of settings pages",
-        "subPermissions": [
-          "settings.enabled"
-        ],
-        "visible": true
-      },
-      {
         "permissionName": "ui-request.view",
         "displayName": "Request: View requests",
         "subPermissions": [
