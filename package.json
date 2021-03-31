@@ -56,7 +56,8 @@
         "permissionName": "ui-request.edit",
         "displayName": "Request: Edit requests",
         "subPermissions": [
-          "rs.patronrequests.item.put"
+          "rs.patronrequests.item.put",
+          "rs.patronrequests.item.performaction"
         ],
         "visible": "true"
       }
