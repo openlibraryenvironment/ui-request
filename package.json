@@ -36,9 +36,12 @@
         "permissionName": "ui-request.view",
         "displayName": "Request: View requests",
         "subPermissions": [
+          "rs.batch.get",
           "rs.hostlmslocations.get",
+          "rs.patronrequests.generateBatch",
           "rs.patronrequests.read",
           "rs.refdata.get",
+          "rs.report.execute",
           "rs.status.get",
           "configuration.entries.collection.get",
           "tags.collection.get"
@@ -58,7 +61,8 @@
         "displayName": "Request: Edit requests",
         "subPermissions": [
           "rs.patronrequests.item.put",
-          "rs.patronrequests.item.performaction"
+          "rs.patronrequests.item.performaction",
+          "rs.patronrequests.markBatchPrinted"
         ],
         "visible": "true"
       }
