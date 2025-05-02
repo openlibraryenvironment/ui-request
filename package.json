@@ -1,6 +1,6 @@
 {
   "name": "@projectreshare/request",
-  "version": "1.6.3",
+  "version": "1.6.5",
   "description": "Request resources for ILL",
   "license": "Apache-2.0",
   "dependencies": {
@@ -34,7 +34,7 @@
       },
       {
         "permissionName": "ui-request.view",
-        "displayName": "Request: View requests",
+        "displayName": "ILL Request: View requests",
         "subPermissions": [
           "rs.batch.get",
           "rs.hostlmslocations.get",
@@ -46,11 +46,11 @@
           "configuration.entries.collection.get",
           "tags.collection.get"
         ],
-        "visible": "false"
+        "visible": "true"
       },
       {
         "permissionName": "ui-request.create",
-        "displayName": "Request: Create requests",
+        "displayName": "ILL Request: Create requests",
         "subPermissions": [
           "rs.patronrequests.item.post"
         ],
@@ -58,7 +58,7 @@
       },
       {
         "permissionName": "ui-request.edit",
-        "displayName": "Request: Edit requests",
+        "displayName": "ILL Request: Edit requests",
         "subPermissions": [
           "rs.patronrequests.item.put",
           "rs.patronrequests.item.performaction",
