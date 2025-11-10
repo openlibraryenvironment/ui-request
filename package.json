@@ -5,6 +5,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@projectreshare/rs": "^1.6.0"
+    "@projectreshare/directory": "^1.13.0"
   },
   "stripes": {
     "actsAs": ["app"],
@@ -43,6 +44,9 @@
           "rs.refdata.get",
           "rs.report.execute",
           "rs.status.get",
+          "directory.entry.collection.get",
+          "rs.shelvingLocations.read",
+          "rs.settings.get",
           "configuration.entries.collection.get",
           "tags.collection.get"
         ],
