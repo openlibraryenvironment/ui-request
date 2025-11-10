@@ -4,7 +4,7 @@
   "description": "Request resources for ILL",
   "license": "Apache-2.0",
   "dependencies": {
-    "@projectreshare/rs": "^1.6.0"
+    "@projectreshare/rs": "^1.6.0",
     "@projectreshare/directory": "^1.13.0"
   },
   "stripes": {
